@@ -51,10 +51,10 @@ jobs:
             -archivePath $RUNNER_TEMP/App.xcarchive \
             archive \
             CODE_SIGN_IDENTITY="Apple Development" \
+            CODE_SIGN_STYLE="Manual" \
             PROVISIONING_PROFILE_SPECIFIER="f6fa85a8-4e99-4fe9-a54e-6cc74d75a405" \
             DEVELOPMENT_TEAM="4F3GSU8H55" \
-            PRODUCT_BUNDLE_IDENTIFIER="io.dcloud.HBuilder.4F3GSUBH55" \
-            -allowProvisioningUpdates
+            PRODUCT_BUNDLE_IDENTIFIER="io.dcloud.HBuilder.4F3GSUBH55"
 
             
       - name: Export IPA
