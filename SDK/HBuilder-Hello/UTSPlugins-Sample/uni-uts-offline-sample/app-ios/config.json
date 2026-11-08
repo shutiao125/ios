@@ -1,0 +1,8 @@
+{
+  "frameworks": ["Foundation"],
+  "deploymentTarget": "15.0",
+  "plists": {
+    "UTSOfflineSampleEnabled": true
+  },
+  "hooksClass": "UTSOfflineSample"
+}

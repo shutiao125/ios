@@ -1,0 +1,10 @@
+import Foundation
+
+import uniGetNetworkType
+
+public typealias GetNetworkTypeSuccess = uniGetNetworkType.GetNetworkTypeSuccess
+public typealias GetNetworkTypeOptions = uniGetNetworkType.GetNetworkTypeOptions
+public typealias OnNetworkStatusChangeCallbackResult = uniGetNetworkType.OnNetworkStatusChangeCallbackResult
+public let getNetworkType = uniGetNetworkType.getNetworkType
+public let onNetworkStatusChange = uniGetNetworkType.onNetworkStatusChange
+public let offNetworkStatusChange = uniGetNetworkType.offNetworkStatusChange

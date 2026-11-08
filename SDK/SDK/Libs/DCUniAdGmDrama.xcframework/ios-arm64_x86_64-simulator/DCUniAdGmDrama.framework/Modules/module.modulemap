@@ -1,0 +1,6 @@
+framework module DCUniAdGmDrama {
+  umbrella header "DCUniAdGmDrama.h"
+  export *
+
+  module * { export * }
+}

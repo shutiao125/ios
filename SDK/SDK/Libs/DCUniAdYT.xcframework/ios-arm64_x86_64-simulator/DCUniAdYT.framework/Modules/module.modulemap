@@ -1,0 +1,6 @@
+framework module DCUniAdYT {
+  umbrella header "DCUniAdYT.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+import Foundation
+
+import uniGetAppAuthorizeSetting
+
+public typealias GetAppAuthorizeSettingResult = uniGetAppAuthorizeSetting.GetAppAuthorizeSettingResult
+public let getAppAuthorizeSetting = uniGetAppAuthorizeSetting.getAppAuthorizeSetting

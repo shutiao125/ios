@@ -1,0 +1,6 @@
+import Foundation
+
+import uniGetSystemSetting
+
+public typealias GetSystemSettingResult = uniGetSystemSetting.GetSystemSettingResult
+public let getSystemSetting = uniGetSystemSetting.getSystemSetting

@@ -1,0 +1,164 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name uniChooseMedia
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import AVFoundation
+import CoreFoundation
+import CoreMedia
+import DCloudUTSExtAPI
+import DCloudUTSFoundation
+import Foundation
+import PhotosUI
+import Swift
+import UIKit
+import UniformTypeIdentifiers
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import uniChooseMedia
+public typealias ChooseMediaErrorCode = Foundation.NSNumber
+public protocol IChooseMediaError : DCloudUTSFoundation.IUniError {
+  var errCode: uniChooseMedia.ChooseMediaErrorCode { get set }
+}
+public typealias ChooseMediaFileType = Swift.String
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaTempFile) @objcMembers public class ChooseMediaTempFile : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var tempFilePath: Swift.String!
+  @objc public var fileType: uniChooseMedia.ChooseMediaFileType!
+  @objc public var size: Foundation.NSNumber!
+  @objc public var byteSize: Foundation.NSNumber?
+  @objc public var duration: Foundation.NSNumber?
+  @objc public var height: Foundation.NSNumber?
+  @objc public var width: Foundation.NSNumber?
+  @objc public var thumbTempFilePath: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaSuccess) @objcMembers public class ChooseMediaSuccess : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var tempFiles: [uniChooseMedia.ChooseMediaTempFile]!
+  @objc public var type: Swift.String!
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public typealias ChooseMediaFail = uniChooseMedia.IChooseMediaError
+public typealias ChooseMediaSuccessCallback = (_ callback: uniChooseMedia.ChooseMediaSuccess) -> Swift.Void
+public typealias ChooseMediaFailCallback = (_ callback: any uniChooseMedia.IChooseMediaError) -> Swift.Void
+public typealias ChooseMediaCompleteCallback = (_ callback: Any) -> Swift.Void
+public typealias ChooseMediaPageOrientation = Swift.String
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaOptions) @objcMembers public class ChooseMediaOptions : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var pageOrientation: uniChooseMedia.ChooseMediaPageOrientation?
+  @objc public var count: Foundation.NSNumber?
+  @objc public var mediaType: [Swift.String]?
+  @objc public var sourceType: [Swift.String]?
+  @objc public var maxDuration: Foundation.NSNumber?
+  @objc public var camera: Swift.String?
+  @objc public var success: uniChooseMedia.ChooseMediaSuccessCallback?
+  public var fail: uniChooseMedia.ChooseMediaFailCallback?
+  @objc public var complete: uniChooseMedia.ChooseMediaCompleteCallback?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public typealias ChooseMedia = (_ options: uniChooseMedia.ChooseMediaOptions) -> Swift.Void
+public var UniError_ChooseMedia: Swift.String
+public var ChooseMediaUniErrors: [Foundation.NSNumber : Swift.String]
+@objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaErrorImpl) @objcMembers public class ChooseMediaErrorImpl : DCloudUTSFoundation.UniError, uniChooseMedia.IChooseMediaError {
+  @objc public init(_ errCode: uniChooseMedia.ChooseMediaErrorCode, _ uniErrorSubject: Swift.String = "uni-chooseMedia")
+  @objc deinit
+}
+public var imagePickerManager: uniChooseMedia.ChooseMediaImagePickerManager?
+public var chooseMedia: (_ options: uniChooseMedia.ChooseMediaOptions) -> Swift.Void
+public func chooseMediaWithCamera(_ options: uniChooseMedia.ChooseMediaOptions)
+public func chooseMediaRequestCameraPermission(_ completion: @escaping (_ status: Foundation.NSNumber) -> Swift.Void)
+public func chooseMediaRequestMicrophonePermission(_ completion: @escaping (_ status: Foundation.NSNumber) -> Swift.Void)
+public func chooseMediaWithSourceType(_ options: uniChooseMedia.ChooseMediaOptions, _ chooseSourceCallback: @escaping (_ index: Foundation.NSNumber) -> Swift.Void)
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaUtil) @objcMembers public class ChooseMediaUtil : ObjectiveC.NSObject {
+  @objc public static func createFilePath(_ fileName: Swift.String) -> Swift.String
+  @objc public static func saveImage(_ image: UIKit.UIImage, _ path: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getFristFrameWithVideo(_ mediaUrl: Foundation.URL) -> UIKit.UIImage?
+  #endif
+  @objc public static func getVideoInfo(_ mediaUrl: Foundation.URL) -> Swift.Dictionary<Swift.String, Any>
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getTempFileWithImage(_ image: UIKit.UIImage) -> uniChooseMedia.ChooseMediaTempFile?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public static func getTempFileWithVideo(_ mediaUrl: Foundation.URL) -> uniChooseMedia.ChooseMediaTempFile?
+  #endif
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaImagePickerManager) @objcMembers @_Concurrency.MainActor @preconcurrency public class ChooseMediaImagePickerManager : ObjectiveC.NSObject, UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency public init(_ options: uniChooseMedia.ChooseMediaOptions)
+  @objc @_Concurrency.MainActor @preconcurrency public func chooseMediaWithCamera()
+  @objc @_Concurrency.MainActor @preconcurrency public func chooseMediaWithAlbum()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @_Concurrency.MainActor @preconcurrency public func getMediaTypes(_ types: [Swift.String]?) -> [Swift.String]
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public func dismiss(_ picker: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor @preconcurrency @objc public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: Swift.Dictionary<UIKit.UIImagePickerController.InfoKey, Any>)
+  @_Concurrency.MainActor @preconcurrency @objc public func imagePickerControllerDidCancel(_ picker: UIKit.UIImagePickerController)
+  @objc deinit
+}
+@available(iOS 14.0, *)
+@objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaPHPickerManager) @objcMembers @_Concurrency.MainActor @preconcurrency public class ChooseMediaPHPickerManager : ObjectiveC.NSObject, PhotosUI.PHPickerViewControllerDelegate, UIKit.UIAdaptivePresentationControllerDelegate {
+  @objc @_Concurrency.MainActor @preconcurrency public init(_ options: uniChooseMedia.ChooseMediaOptions)
+  @objc @_Concurrency.MainActor @preconcurrency public func finishSuccess(_ success: uniChooseMedia.ChooseMediaSuccess)
+  @objc @_Concurrency.MainActor @preconcurrency public func finishFail()
+  @objc @_Concurrency.MainActor @preconcurrency public func chooseMediaWithAlbum()
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor @preconcurrency public func getMediaTypes(_ types: [Swift.String]?) -> PhotosUI.PHPickerFilter?
+  #endif
+  @objc @_Concurrency.MainActor @preconcurrency public func getFileType(_ types: [Swift.String]) -> Swift.String
+  @_Concurrency.MainActor @preconcurrency public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
+  @objc @_Concurrency.MainActor @preconcurrency public func dismiss(_ picker: PhotosUI.PHPickerViewController)
+  @_Concurrency.MainActor @preconcurrency @objc public func presentationControllerDidDismiss(_ presentationController: UIKit.UIPresentationController)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaChooseMediaOptionsJSONObject) @objcMembers public class ChooseMediaOptionsJSONObject : ObjectiveC.NSObject {
+  @objc public var pageOrientation: uniChooseMedia.ChooseMediaPageOrientation?
+  @objc public var count: Foundation.NSNumber?
+  @objc public var mediaType: [Swift.String]?
+  @objc public var sourceType: [Swift.String]?
+  @objc public var maxDuration: Foundation.NSNumber?
+  @objc public var camera: Swift.String?
+  @objc public var success: DCloudUTSFoundation.UTSCallback?
+  @objc public var fail: DCloudUTSFoundation.UTSCallback?
+  @objc public var complete: DCloudUTSFoundation.UTSCallback?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func chooseMediaByJs(_ options: uniChooseMedia.ChooseMediaOptionsJSONObject)
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniChooseMediaIndexSwift) @objcMembers public class UTSSDKModulesDCloudUniChooseMediaIndexSwift : ObjectiveC.NSObject {
+  @objc public static func s_chooseMediaByJs(_ options: uniChooseMedia.ChooseMediaOptionsJSONObject)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension uniChooseMedia.ChooseMediaImagePickerManager : Swift.Sendable {}
+@available(iOS 14.0, *)
+extension uniChooseMedia.ChooseMediaPHPickerManager : Swift.Sendable {}

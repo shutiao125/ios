@@ -1,0 +1,90 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name uniGetLocationTencentUni1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import CoreLocation
+import DCloudUTSFoundation
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import uniGetLocationTencentUni1
+public typealias GetLocationFailImpl = uniGetLocationTencentUni1.GetLocationFailImpl__1
+public var LocationUniErrorSubject: Swift.String
+public typealias LocationErrorCode = Foundation.NSNumber
+public protocol IGetLocationFail : DCloudUTSFoundation.IUniError {
+  var errCode: uniGetLocationTencentUni1.LocationErrorCode { get set }
+}
+public typealias GetLocationFail = uniGetLocationTencentUni1.IGetLocationFail
+public typealias GetLocation = (_ options: uniGetLocationTencentUni1.GetLocationOptions) -> Swift.Void
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess) @objcMembers public class GetLocationSuccess : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var latitude: Foundation.NSNumber!
+  @objc public var longitude: Foundation.NSNumber!
+  @objc public var speed: Foundation.NSNumber!
+  @objc public var accuracy: Foundation.NSNumber!
+  @objc public var altitude: Foundation.NSNumber!
+  @objc public var verticalAccuracy: Foundation.NSNumber!
+  @objc public var horizontalAccuracy: Foundation.NSNumber!
+  @objc public var address: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public typealias GetLocationSuccessCallback = (_ result: uniGetLocationTencentUni1.GetLocationSuccess) -> Swift.Void
+public typealias GetLocationFailCallback = (_ result: any uniGetLocationTencentUni1.IGetLocationFail) -> Swift.Void
+public typealias GetLocationComplete = Any
+public typealias GetLocationCompleteCallback = (_ result: Any) -> Swift.Void
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions) @objcMembers public class GetLocationOptions : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var type: Swift.String?
+  @objc public var altitude: Swift.Bool
+  @objc public var geocode: Swift.Bool
+  @objc public var highAccuracyExpireTime: Foundation.NSNumber?
+  @objc public var isHighAccuracy: Swift.Bool
+  @objc public var success: uniGetLocationTencentUni1.GetLocationSuccessCallback?
+  public var fail: uniGetLocationTencentUni1.GetLocationFailCallback?
+  @objc public var complete: uniGetLocationTencentUni1.GetLocationCompleteCallback?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public var LocationUniErrors: [uniGetLocationTencentUni1.LocationErrorCode : Swift.String]
+@objc(UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1) @objcMembers public class GetLocationFailImpl__1 : DCloudUTSFoundation.UniError, uniGetLocationTencentUni1.IGetLocationFail {
+  @objc public init(_ errCode: uniGetLocationTencentUni1.LocationErrorCode)
+  @objc deinit
+}
+public var getLocation: (_ options: uniGetLocationTencentUni1.GetLocationOptions) -> Swift.Void
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject) @objcMembers public class GetLocationOptionsJSONObject : ObjectiveC.NSObject {
+  @objc public var type: Swift.String?
+  @objc public var altitude: Swift.Bool
+  @objc public var geocode: Swift.Bool
+  @objc public var highAccuracyExpireTime: Foundation.NSNumber?
+  @objc public var isHighAccuracy: Swift.Bool
+  @objc public var success: DCloudUTSFoundation.UTSCallback?
+  @objc public var fail: DCloudUTSFoundation.UTSCallback?
+  @objc public var complete: DCloudUTSFoundation.UTSCallback?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func getLocationByJs(_ options: uniGetLocationTencentUni1.GetLocationOptionsJSONObject)
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift) @objcMembers public class UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift : ObjectiveC.NSObject {
+  @objc public static func s_getLocationByJs(_ options: uniGetLocationTencentUni1.GetLocationOptionsJSONObject)
+  @objc override dynamic public init()
+  @objc deinit
+}

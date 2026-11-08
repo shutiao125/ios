@@ -1,0 +1,4707 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "uniGetLocationTencentUni1",
+    "printedName": "uniGetLocationTencentUni1",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "uniGetLocationTencentUni1"
+      },
+      {
+        "kind": "Import",
+        "name": "DCloudUTSFoundation",
+        "printedName": "DCloudUTSFoundation",
+        "declKind": "Import",
+        "moduleName": "uniGetLocationTencentUni1"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "uniGetLocationTencentUni1"
+      },
+      {
+        "kind": "Import",
+        "name": "TencentLBS",
+        "printedName": "TencentLBS",
+        "declKind": "Import",
+        "moduleName": "uniGetLocationTencentUni1",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LocationUniErrorSubject",
+        "printedName": "LocationUniErrorSubject",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:25uniGetLocationTencentUni10C15UniErrorSubjectSSvp",
+        "mangledName": "$s25uniGetLocationTencentUni10C15UniErrorSubjectSSvp",
+        "moduleName": "uniGetLocationTencentUni1",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C15UniErrorSubjectSSvg",
+            "mangledName": "$s25uniGetLocationTencentUni10C15UniErrorSubjectSSvg",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C15UniErrorSubjectSSvs",
+            "mangledName": "$s25uniGetLocationTencentUni10C15UniErrorSubjectSSvs",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C15UniErrorSubjectSSvM",
+            "mangledName": "$s25uniGetLocationTencentUni10C15UniErrorSubjectSSvM",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IGetLocationFail",
+        "printedName": "IGetLocationFail",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "errCode",
+            "printedName": "errCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvp",
+            "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "protocolReq": true,
+            "overriding": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvg",
+                "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniGetLocationTencentUni1.IGetLocationFail>",
+                "sugared_genericSig": "<Self where Self : uniGetLocationTencentUni1.IGetLocationFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvs",
+                "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniGetLocationTencentUni1.IGetLocationFail>",
+                "sugared_genericSig": "<Self where Self : uniGetLocationTencentUni1.IGetLocationFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvM",
+                "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP7errCodeSo8NSNumberCvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "genericSig": "<τ_0_0 where τ_0_0 : uniGetLocationTencentUni1.IGetLocationFail>",
+                "sugared_genericSig": "<Self where Self : uniGetLocationTencentUni1.IGetLocationFail>",
+                "protocolReq": true,
+                "overriding": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:25uniGetLocationTencentUni104IGetC4FailP",
+        "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP",
+        "moduleName": "uniGetLocationTencentUni1",
+        "genericSig": "<τ_0_0 : DCloudUTSFoundation.IUniError>",
+        "sugared_genericSig": "<Self : DCloudUTSFoundation.IUniError>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetLocationSuccess",
+        "printedName": "GetLocationSuccess",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)latitude",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8latitudeSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)latitude",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8latitudeSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setLatitude:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8latitudeSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC8latitudeSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8latitudeSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)longitude",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC9longitudeSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)longitude",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC9longitudeSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setLongitude:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC9longitudeSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC9longitudeSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC9longitudeSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speed",
+            "printedName": "speed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)speed",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC5speedSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)speed",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC5speedSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setSpeed:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC5speedSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC5speedSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC5speedSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "accuracy",
+            "printedName": "accuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)accuracy",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8accuracySo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)accuracy",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8accuracySo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setAccuracy:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8accuracySo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC8accuracySo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8accuracySo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)altitude",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8altitudeSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)altitude",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8altitudeSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setAltitude:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8altitudeSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC8altitudeSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC8altitudeSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalAccuracy",
+            "printedName": "verticalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)verticalAccuracy",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC16verticalAccuracySo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)verticalAccuracy",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC16verticalAccuracySo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setVerticalAccuracy:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC16verticalAccuracySo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC16verticalAccuracySo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC16verticalAccuracySo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalAccuracy",
+            "printedName": "horizontalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)horizontalAccuracy",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC18horizontalAccuracySo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)horizontalAccuracy",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC18horizontalAccuracySo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setHorizontalAccuracy:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC18horizontalAccuracySo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC18horizontalAccuracySo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC18horizontalAccuracySo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "address",
+            "printedName": "address",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(py)address",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC7addressSSSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)address",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC7addressSSSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setAddress:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC7addressSSSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessC7addressSSSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC7addressSSSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:25uniGetLocationTencentUni10bC7SuccessCyypSgSScip",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCyypSgSScip",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)objectForKeyedSubscript:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCyypSgSScig",
+                "moduleName": "uniGetLocationTencentUni1",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCyypSgSScis",
+                "moduleName": "uniGetLocationTencentUni1",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7SuccessCyypSgSSciM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCyypSgSSciM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationSuccess",
+                "printedName": "uniGetLocationTencentUni1.GetLocationSuccess",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)init",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCACycfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationSuccess",
+                "printedName": "uniGetLocationTencentUni1.GetLocationSuccess",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess(im)init:",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess",
+        "mangledName": "$s25uniGetLocationTencentUni10bC7SuccessC",
+        "moduleName": "uniGetLocationTencentUni1",
+        "objc_name": "UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetLocationOptions",
+        "printedName": "GetLocationOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)type",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4typeSSSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)type",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4typeSSSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setType:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4typeSSSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC4typeSSSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4typeSSSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)altitude",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8altitudeSbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)altitude",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8altitudeSbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setAltitude:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8altitudeSbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC8altitudeSbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8altitudeSbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "geocode",
+            "printedName": "geocode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)geocode",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7geocodeSbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)geocode",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7geocodeSbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setGeocode:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7geocodeSbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC7geocodeSbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7geocodeSbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "highAccuracyExpireTime",
+            "printedName": "highAccuracyExpireTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)highAccuracyExpireTime",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC22highAccuracyExpireTimeSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)highAccuracyExpireTime",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC22highAccuracyExpireTimeSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setHighAccuracyExpireTime:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC22highAccuracyExpireTimeSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC22highAccuracyExpireTimeSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC22highAccuracyExpireTimeSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHighAccuracy",
+            "printedName": "isHighAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)isHighAccuracy",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC14isHighAccuracySbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)isHighAccuracy",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC14isHighAccuracySbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setIsHighAccuracy:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC14isHighAccuracySbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC14isHighAccuracySbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC14isHighAccuracySbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((uniGetLocationTencentUni1.GetLocationSuccess) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(uniGetLocationTencentUni1.GetLocationSuccess) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GetLocationSuccess",
+                        "printedName": "uniGetLocationTencentUni1.GetLocationSuccess",
+                        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)success",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7successyAA0bC7SuccessCcSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((uniGetLocationTencentUni1.GetLocationSuccess) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(uniGetLocationTencentUni1.GetLocationSuccess) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetLocationSuccess",
+                            "printedName": "uniGetLocationTencentUni1.GetLocationSuccess",
+                            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)success",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7successyAA0bC7SuccessCcSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((uniGetLocationTencentUni1.GetLocationSuccess) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(uniGetLocationTencentUni1.GetLocationSuccess) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GetLocationSuccess",
+                            "printedName": "uniGetLocationTencentUni1.GetLocationSuccess",
+                            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationSuccess"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setSuccess:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7successyAA0bC7SuccessCcSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC7successyAA0bC7SuccessCcSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC7successyAA0bC7SuccessCcSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any uniGetLocationTencentUni1.IGetLocationFail) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any uniGetLocationTencentUni1.IGetLocationFail) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IGetLocationFail",
+                        "printedName": "any uniGetLocationTencentUni1.IGetLocationFail",
+                        "usr": "s:25uniGetLocationTencentUni104IGetC4FailP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvp",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any uniGetLocationTencentUni1.IGetLocationFail) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any uniGetLocationTencentUni1.IGetLocationFail) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IGetLocationFail",
+                            "printedName": "any uniGetLocationTencentUni1.IGetLocationFail",
+                            "usr": "s:25uniGetLocationTencentUni104IGetC4FailP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvg",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any uniGetLocationTencentUni1.IGetLocationFail) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any uniGetLocationTencentUni1.IGetLocationFail) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IGetLocationFail",
+                            "printedName": "any uniGetLocationTencentUni1.IGetLocationFail",
+                            "usr": "s:25uniGetLocationTencentUni104IGetC4FailP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvs",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC4failyAA04IGetC4Fail_pcSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Any) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(py)complete",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8completeyypcSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)complete",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8completeyypcSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Any) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setComplete:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8completeyypcSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsC8completeyypcSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC8completeyypcSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:25uniGetLocationTencentUni10bC7OptionsCyypSgSScip",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCyypSgSScip",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)objectForKeyedSubscript:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCyypSgSScig",
+                "moduleName": "uniGetLocationTencentUni1",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)setObject:forKeyedSubscript:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCyypSgSScis",
+                "moduleName": "uniGetLocationTencentUni1",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC7OptionsCyypSgSSciM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCyypSgSSciM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationOptions",
+                "printedName": "uniGetLocationTencentUni1.GetLocationOptions",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)init",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCACycfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationOptions",
+                "printedName": "uniGetLocationTencentUni1.GetLocationOptions",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UTSJSONObject",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions(im)init:",
+            "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsCyAC19DCloudUTSFoundation13UTSJSONObjectCcfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions",
+        "mangledName": "$s25uniGetLocationTencentUni10bC7OptionsC",
+        "moduleName": "uniGetLocationTencentUni1",
+        "objc_name": "UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "UTSObject",
+            "printedName": "UTSObject",
+            "usr": "s:19DCloudUTSFoundation9UTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation9UTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUTSObject",
+            "printedName": "IUTSObject",
+            "usr": "s:19DCloudUTSFoundation10IUTSObjectP",
+            "mangledName": "$s19DCloudUTSFoundation10IUTSObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "DCUTSSequence",
+            "printedName": "DCUTSSequence",
+            "usr": "s:19DCloudUTSFoundation13DCUTSSequenceP",
+            "mangledName": "$s19DCloudUTSFoundation13DCUTSSequenceP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DCUniIterator",
+                    "printedName": "DCloudUTSFoundation.DCUniIterator",
+                    "usr": "s:19DCloudUTSFoundation13DCUniIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "LocationUniErrors",
+        "printedName": "LocationUniErrors",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Dictionary",
+            "printedName": "[Foundation.NSNumber : Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:SD"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvp",
+        "mangledName": "$s25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvp",
+        "moduleName": "uniGetLocationTencentUni1",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvg",
+            "mangledName": "$s25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvg",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Foundation.NSNumber : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvs",
+            "mangledName": "$s25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvs",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvM",
+            "mangledName": "$s25uniGetLocationTencentUni10C9UniErrorsSDySo8NSNumberCSSGvM",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetLocationFailImpl__1",
+        "printedName": "GetLocationFailImpl__1",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationFailImpl__1",
+                "printedName": "uniGetLocationTencentUni1.GetLocationFailImpl__1",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1(im)init:",
+            "mangledName": "$s25uniGetLocationTencentUni10bC11FailImpl__1CyACSo8NSNumberCcfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationFailImpl__1",
+                "printedName": "uniGetLocationTencentUni1.GetLocationFailImpl__1",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSNumber",
+                "printedName": "Foundation.NSNumber",
+                "usr": "c:objc(cs)NSNumber"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSJSONObject?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSJSONObject",
+                    "printedName": "DCloudUTSFoundation.UTSJSONObject",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSJSONObject"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1(im)init:::::",
+            "mangledName": "$s25uniGetLocationTencentUni10bC11FailImpl__1CyACSS_So8NSNumberCSSypSg19DCloudUTSFoundation13UTSJSONObjectCSgtcfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init:::::",
+            "declAttributes": [
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationFailImpl__1",
+                "printedName": "uniGetLocationTencentUni1.GetLocationFailImpl__1",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1(im)init",
+            "mangledName": "$s25uniGetLocationTencentUni10bC11FailImpl__1CACycfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1",
+        "mangledName": "$s25uniGetLocationTencentUni10bC11FailImpl__1C",
+        "moduleName": "uniGetLocationTencentUni1",
+        "objc_name": "UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationFailImpl__1",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@DCloudUTSFoundation@objc(cs)UniError",
+        "superclassNames": [
+          "DCloudUTSFoundation.UniError",
+          "DCloudUTSFoundation.UTSError",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IGetLocationFail",
+            "printedName": "IGetLocationFail",
+            "usr": "s:25uniGetLocationTencentUni104IGetC4FailP",
+            "mangledName": "$s25uniGetLocationTencentUni104IGetC4FailP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IUniError",
+            "printedName": "IUniError",
+            "usr": "s:19DCloudUTSFoundation9IUniErrorP",
+            "mangledName": "$s19DCloudUTSFoundation9IUniErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AsyncApiResult",
+            "printedName": "AsyncApiResult",
+            "usr": "s:19DCloudUTSFoundation14AsyncApiResultP",
+            "mangledName": "$s19DCloudUTSFoundation14AsyncApiResultP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "getLocation",
+        "printedName": "getLocation",
+        "children": [
+          {
+            "kind": "TypeFunc",
+            "name": "Function",
+            "printedName": "(uniGetLocationTencentUni1.GetLocationOptions) -> ()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationOptions",
+                "printedName": "uniGetLocationTencentUni1.GetLocationOptions",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions"
+              }
+            ]
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvp",
+        "mangledName": "$s25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvp",
+        "moduleName": "uniGetLocationTencentUni1",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(uniGetLocationTencentUni1.GetLocationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetLocationOptions",
+                    "printedName": "uniGetLocationTencentUni1.GetLocationOptions",
+                    "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvg",
+            "mangledName": "$s25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvg",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "get"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Set",
+            "printedName": "Set()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(uniGetLocationTencentUni1.GetLocationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GetLocationOptions",
+                    "printedName": "uniGetLocationTencentUni1.GetLocationOptions",
+                    "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvs",
+            "mangledName": "$s25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvs",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "set"
+          },
+          {
+            "kind": "Accessor",
+            "name": "Modify",
+            "printedName": "Modify()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvM",
+            "mangledName": "$s25uniGetLocationTencentUni103getC0yyAA0bC7OptionsCcvM",
+            "moduleName": "uniGetLocationTencentUni1",
+            "implicit": true,
+            "accessorKind": "_modify"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GetLocationOptionsJSONObject",
+        "printedName": "GetLocationOptionsJSONObject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "type",
+            "printedName": "type",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)type",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4typeSSSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)type",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4typeSSSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setType:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4typeSSSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC4typeSSSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4typeSSSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)altitude",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8altitudeSbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)altitude",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8altitudeSbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setAltitude:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8altitudeSbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC8altitudeSbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8altitudeSbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "geocode",
+            "printedName": "geocode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)geocode",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7geocodeSbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)geocode",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7geocodeSbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setGeocode:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7geocodeSbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC7geocodeSbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7geocodeSbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "highAccuracyExpireTime",
+            "printedName": "highAccuracyExpireTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)highAccuracyExpireTime",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC22highAccuracyExpireTimeSo8NSNumberCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)highAccuracyExpireTime",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC22highAccuracyExpireTimeSo8NSNumberCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setHighAccuracyExpireTime:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC22highAccuracyExpireTimeSo8NSNumberCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC22highAccuracyExpireTimeSo8NSNumberCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC22highAccuracyExpireTimeSo8NSNumberCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHighAccuracy",
+            "printedName": "isHighAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)isHighAccuracy",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC14isHighAccuracySbvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)isHighAccuracy",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC14isHighAccuracySbvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setIsHighAccuracy:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC14isHighAccuracySbvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC14isHighAccuracySbvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC14isHighAccuracySbvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)success",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)success",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setSuccess:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC7success19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fail",
+            "printedName": "fail",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)fail",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)fail",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setFail:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC4fail19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "complete",
+            "printedName": "complete",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DCloudUTSFoundation.UTSCallback?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UTSCallback",
+                    "printedName": "DCloudUTSFoundation.UTSCallback",
+                    "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(py)complete",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvp",
+            "moduleName": "uniGetLocationTencentUni1",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)complete",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvg",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DCloudUTSFoundation.UTSCallback?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UTSCallback",
+                        "printedName": "DCloudUTSFoundation.UTSCallback",
+                        "usr": "c:@M@DCloudUTSFoundation@objc(cs)UTSCallback"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)setComplete:",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvs",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:25uniGetLocationTencentUni10bC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC8complete19DCloudUTSFoundation11UTSCallbackCSgvM",
+                "moduleName": "uniGetLocationTencentUni1",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationOptionsJSONObject",
+                "printedName": "uniGetLocationTencentUni1.GetLocationOptionsJSONObject",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject(im)init",
+            "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectCACycfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject",
+        "mangledName": "$s25uniGetLocationTencentUni10bC17OptionsJSONObjectC",
+        "moduleName": "uniGetLocationTencentUni1",
+        "objc_name": "UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "getLocationByJs",
+        "printedName": "getLocationByJs(_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GetLocationOptionsJSONObject",
+            "printedName": "uniGetLocationTencentUni1.GetLocationOptionsJSONObject",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:25uniGetLocationTencentUni103getC4ByJsyyAA0bC17OptionsJSONObjectCF",
+        "mangledName": "$s25uniGetLocationTencentUni103getC4ByJsyyAA0bC17OptionsJSONObjectCF",
+        "moduleName": "uniGetLocationTencentUni1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+        "printedName": "UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "s_getLocationByJs",
+            "printedName": "s_getLocationByJs(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GetLocationOptionsJSONObject",
+                "printedName": "uniGetLocationTencentUni1.GetLocationOptionsJSONObject",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1GetLocationOptionsJSONObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift(cm)s_getLocationByJs:",
+            "mangledName": "$s25uniGetLocationTencentUni1022UTSSDKModulesDCloudUnibcdE10IndexSwiftC05s_getC4ByJsyyAA0bC17OptionsJSONObjectCFZ",
+            "moduleName": "uniGetLocationTencentUni1",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+                "printedName": "uniGetLocationTencentUni1.UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+                "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift(im)init",
+            "mangledName": "$s25uniGetLocationTencentUni1022UTSSDKModulesDCloudUnibcdE10IndexSwiftCACycfc",
+            "moduleName": "uniGetLocationTencentUni1",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@uniGetLocationTencentUni1@objc(cs)UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+        "mangledName": "$s25uniGetLocationTencentUni1022UTSSDKModulesDCloudUnibcdE10IndexSwiftC",
+        "moduleName": "uniGetLocationTencentUni1",
+        "objc_name": "UTSSDKModulesDCloudUniGetLocationTencentUni1IndexSwift",
+        "declAttributes": [
+          "AccessControl",
+          "ObjCMembers",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 14,
+      "value": "\"uni-location\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3096,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3133,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3226,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5247,
+      "length": 7,
+      "value": "1505003"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5264,
+      "length": 51,
+      "value": "\"maybe not turn on the system location permission.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5337,
+      "length": 7,
+      "value": "1505004"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5354,
+      "length": 34,
+      "value": "\"maybe not obtain GPS Permission.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5410,
+      "length": 7,
+      "value": "1505600"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5427,
+      "length": 24,
+      "value": "\"location fail: timeout\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5473,
+      "length": 7,
+      "value": "1505601"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5490,
+      "length": 37,
+      "value": "\"system location support wgs84 only.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5549,
+      "length": 7,
+      "value": "1505602"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5566,
+      "length": 30,
+      "value": "\"location fail: request error\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5618,
+      "length": 7,
+      "value": "1505603"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5635,
+      "length": 57,
+      "value": "\"The system failed to retrieve geocode for the location.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5714,
+      "length": 7,
+      "value": "1505604"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5731,
+      "length": 25,
+      "value": "\"Failed to get provider.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5778,
+      "length": 7,
+      "value": "1505700"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5795,
+      "length": 38,
+      "value": "\"system location not support geocode.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5855,
+      "length": 7,
+      "value": "1505701"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5872,
+      "length": 83,
+      "value": "\"Provider is not find,Please ensure that the device location function is turned on\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5977,
+      "length": 7,
+      "value": "1505800"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 5994,
+      "length": 57,
+      "value": "\"Unauthorized access to high-accuracy location services.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6073,
+      "length": 7,
+      "value": "1505605"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 6090,
+      "length": 39,
+      "value": "\"The Tencent api key is misconfigured.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6151,
+      "length": 7,
+      "value": "1505607"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "StringLiteral",
+      "offset": 6168,
+      "length": 22,
+      "value": "\"GCJ-02 support only.\""
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7113,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15169,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15206,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Volumes\/EXT\/ext\/io.dcloud.package\/dcloud-uts\/ios-complier@alpha\/git\/dist\/release\/app\/uni_modules\/uni-getLocation-tencent-uni1\/utssdk\/app-ios\/src\/index.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15299,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+framework module uniChooseMedia {
+  umbrella header "uniChooseMedia.h"
+  export *
+
+  module * { export * }
+}
+
+module uniChooseMedia.Swift {
+  header "uniChooseMedia-Swift.h"
+  requires objc
+}

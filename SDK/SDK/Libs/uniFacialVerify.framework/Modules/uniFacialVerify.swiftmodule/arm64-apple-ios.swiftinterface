@@ -1,0 +1,95 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name uniFacialVerify
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+import DCloudUTSFoundation
+import Dispatch
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import uniFacialVerify
+public typealias FacialRecognitionVerifyErrorCode = Foundation.NSNumber
+public typealias StartFacialRecognitionVerifyScreenOrientation = Swift.String
+public protocol IFacialRecognitionVerifyError : DCloudUTSFoundation.IUniError {
+  var errCode: uniFacialVerify.FacialRecognitionVerifyErrorCode { get set }
+}
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniFacialVerifyStartFacialRecognitionVerifySuccess) @objcMembers public class StartFacialRecognitionVerifySuccess : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var errCode: Foundation.NSNumber!
+  @objc public var errSubject: Swift.String!
+  @objc public var errMsg: Swift.String!
+  @objc public var cause: DCloudUTSFoundation.SourceError?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public typealias StartFacialRecognitionVerifySuccessCallback = (_ res: uniFacialVerify.StartFacialRecognitionVerifySuccess) -> Swift.Void
+public typealias StartFacialRecognitionVerifyFailCallback = (_ res: any uniFacialVerify.IFacialRecognitionVerifyError) -> Swift.Void
+public typealias StartFacialRecognitionVerifyCompleteCallback = (_ res: Any) -> Swift.Void
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniFacialVerifyStartFacialRecognitionVerifyOptions) @objcMembers public class StartFacialRecognitionVerifyOptions : ObjectiveC.NSObject, DCloudUTSFoundation.UTSObject {
+  @objc public var certifyId: Swift.String!
+  @objc public var progressBarColor: Swift.String?
+  @objc public var screenOrientation: uniFacialVerify.StartFacialRecognitionVerifyScreenOrientation?
+  @objc public var success: uniFacialVerify.StartFacialRecognitionVerifySuccessCallback?
+  public var fail: uniFacialVerify.StartFacialRecognitionVerifyFailCallback?
+  @objc public var complete: uniFacialVerify.StartFacialRecognitionVerifyCompleteCallback?
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public subscript(key: Swift.String) -> Any? {
+    @objc get
+    @objc set
+  }
+  #endif
+  @objc override dynamic public init()
+  @objc public init(_ obj: DCloudUTSFoundation.UTSJSONObject)
+  public typealias Element = Swift.String
+  public typealias Iterator = DCloudUTSFoundation.DCUniIterator
+  @objc deinit
+}
+public typealias GetFacialRecognitionMetaInfo = () -> Swift.String
+public typealias StartFacialRecognitionVerify = (_ faceStyle: uniFacialVerify.StartFacialRecognitionVerifyOptions) -> Swift.Void
+public var UniError_StartFacialRecognitionVerify: Swift.String
+public var FacialRecognitionVerifyUniErrors: [Foundation.NSNumber : Swift.String]
+@objc(UTSSDKModulesDCloudUniFacialVerifyFacialRecognitionVerifyErrorImpl) @objcMembers public class FacialRecognitionVerifyErrorImpl : DCloudUTSFoundation.UniError, uniFacialVerify.IFacialRecognitionVerifyError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc public init(_ errCode: uniFacialVerify.FacialRecognitionVerifyErrorCode, _ causeError: DCloudUTSFoundation.SourceError?)
+  #endif
+  @objc deinit
+}
+public var isLoadService: Swift.Bool
+public var faceAuth: uniFacialVerify.FacialRecognition
+public var startFacialRecognitionVerify: (_ faceStyle: uniFacialVerify.StartFacialRecognitionVerifyOptions) -> Swift.Void
+public var getFacialRecognitionMetaInfo: () -> Swift.String
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniFacialVerifyFacialRecognition) @objcMembers public class FacialRecognition : ObjectiveC.NSObject {
+  @objc public func initSDK()
+  @objc public func startVerify(_ options: uniFacialVerify.StartFacialRecognitionVerifyOptions)
+  @objc public func getMetaInfo() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniFacialVerifyStartFacialRecognitionVerifyOptionsJSONObject) @objcMembers public class StartFacialRecognitionVerifyOptionsJSONObject : ObjectiveC.NSObject {
+  @objc public var certifyId: Swift.String!
+  @objc public var progressBarColor: Swift.String?
+  @objc public var screenOrientation: uniFacialVerify.StartFacialRecognitionVerifyScreenOrientation?
+  @objc public var success: DCloudUTSFoundation.UTSCallback?
+  @objc public var fail: DCloudUTSFoundation.UTSCallback?
+  @objc public var complete: DCloudUTSFoundation.UTSCallback?
+  @objc override dynamic public init()
+  @objc deinit
+}
+public func startFacialRecognitionVerifyByJs(_ faceStyle: uniFacialVerify.StartFacialRecognitionVerifyOptionsJSONObject)
+public func getFacialRecognitionMetaInfoByJs() -> Swift.String
+@_inheritsConvenienceInitializers @objc(UTSSDKModulesDCloudUniFacialVerifyIndexSwift) @objcMembers public class UTSSDKModulesDCloudUniFacialVerifyIndexSwift : ObjectiveC.NSObject {
+  @objc public static func s_startFacialRecognitionVerifyByJs(_ faceStyle: uniFacialVerify.StartFacialRecognitionVerifyOptionsJSONObject)
+  @objc public static func s_getFacialRecognitionMetaInfoByJs() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}

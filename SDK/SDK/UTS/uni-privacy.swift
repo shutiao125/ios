@@ -1,0 +1,12 @@
+import Foundation
+
+import uniPrivacy
+
+public typealias PrivacyChangeResult = uniPrivacy.PrivacyChangeResult
+public typealias GetPrivacySettingSuccessResult = uniPrivacy.GetPrivacySettingSuccessResult
+public typealias GetPrivacySettingOptions = uniPrivacy.GetPrivacySettingOptions
+public let onPrivacyAuthorizationChange = uniPrivacy.onPrivacyAuthorizationChange
+public let offPrivacyAuthorizationChange = uniPrivacy.offPrivacyAuthorizationChange
+public let getPrivacySetting = uniPrivacy.getPrivacySetting
+public let resetPrivacyAuthorization = uniPrivacy.resetPrivacyAuthorization
+public let agreePrivacyAuthorization = uniPrivacy.agreePrivacyAuthorization

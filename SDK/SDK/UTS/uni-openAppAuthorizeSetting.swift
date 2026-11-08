@@ -1,0 +1,9 @@
+import Foundation
+
+import uniOpenAppAuthorizeSetting
+
+public typealias OpenAppAuthorizeSettingSuccess = uniOpenAppAuthorizeSetting.OpenAppAuthorizeSettingSuccess
+public typealias OpenAppAuthorizeSettingFail = uniOpenAppAuthorizeSetting.OpenAppAuthorizeSettingFail
+public typealias OpenAppAuthorizeSettingComplete = uniOpenAppAuthorizeSetting.OpenAppAuthorizeSettingComplete
+public typealias OpenAppAuthorizeSettingOptions = uniOpenAppAuthorizeSetting.OpenAppAuthorizeSettingOptions
+public let openAppAuthorizeSetting = uniOpenAppAuthorizeSetting.openAppAuthorizeSetting
