@@ -53,7 +53,7 @@ jobs:
             -archivePath $RUNNER_TEMP/App.xcarchive \
             archive \
             CODE_SIGN_IDENTITY="iPhone Developer" \
-            PROVISIONING_PROFILE_SPECIFIER="my-app" \
+            PROVISIONING_PROFILE_SPECIFIER="f6fa85a8-4e99-4fe9-a54e-6cc74d75a405" \
             DEVELOPMENT_TEAM="4F3GSU8H55"
 
       - name: Export IPA
