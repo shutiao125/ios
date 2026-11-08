@@ -45,6 +45,8 @@ jobs:
         run: |
           # 注意这里路径变了，因为 HBuilder-Hello 在内层 SDK 里
           cd SDK/HBuilder-Hello
+
+          xcodebuild -list -project HBuilder-Hello.xcodeproj
           
           xcodebuild -project HBuilder-Hello.xcodeproj -scheme HBuilder-Hello \
             -sdk iphoneos -configuration Release \
