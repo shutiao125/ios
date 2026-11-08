@@ -43,19 +43,20 @@ jobs:
 
       - name: Build and Archive
         run: |
-          # 注意这里路径变了，因为 HBuilder-Hello 在内层 SDK 里
+          # 进入你的离线工程目录
           cd SDK/HBuilder-Hello
-
-          xcodebuild -list -project HBuilder-Hello.xcodeproj
           
           xcodebuild -project HBuilder-Hello.xcodeproj -scheme HBuilder \
             -sdk iphoneos -configuration Release \
             -archivePath $RUNNER_TEMP/App.xcarchive \
             archive \
-            CODE_SIGN_IDENTITY="iPhone Developer" \
+            CODE_SIGN_IDENTITY="Apple Development" \
             PROVISIONING_PROFILE_SPECIFIER="f6fa85a8-4e99-4fe9-a54e-6cc74d75a405" \
-            DEVELOPMENT_TEAM="4F3GSU8H55"
+            DEVELOPMENT_TEAM="4F3GSU8H55" \
+            PRODUCT_BUNDLE_IDENTIFIER="io.dcloud.HBuilder.4F3GSUBH55" \
+            -allowProvisioningUpdates
 
+            
       - name: Export IPA
         run: |
           cat > $RUNNER_TEMP/exportOptions.plist <<EOF
