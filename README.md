@@ -1,6 +1,6 @@
-# ios · 「快记账！」本地打包资源与 iOS 云端构建
+# 「快记账！」本地打包资源与 iOS 云端构建
 
-「快记账！」App 的 **uni-app 本地打包资源（Android / iOS 通用）** 托管在本仓库，并附带 iOS 端的 GitHub Actions 云端打包流水线。配套后端见 [my_api 仓库](https://github.com/shutiao125/my_api)（AI 记账识别 + 邮箱验证码）。
+「快记账！」App 的 **uni-app 本地打包资源（Android / iOS 通用）** 托管在本仓库，并附带 iOS 端的 GitHub Actions 云端打包流水线。配套后端见 [zhang_api 仓库](https://github.com/shutiao125/zhang_api)（AI 记账识别 + 邮箱验证码）。
 
 > 应用定位：轻量记账应用——手动记录与 AI 智能记账，账目按账号隔离。
 
@@ -31,7 +31,7 @@
 | iOS 构建 | Xcode / xcodebuild（GitHub Actions macOS runner 云端执行） |
 | CI/CD | GitHub Actions（`workflow_dispatch` 手动触发出包） |
 | 版本管理 | Git LFS（SDK 大文件） |
-| 后端服务 | FastAPI（[my_api 仓库](https://github.com/shutiao125/my_api)，AI 记账识别） |
+| 后端服务 | FastAPI（[zhang_api 仓库](https://github.com/shutiao125/zhang_api)，AI 记账识别） |
 
 ## 云端构建（推荐）
 
